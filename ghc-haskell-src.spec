@@ -2,7 +2,7 @@
 Summary:	Support for manipulating Haskell source code
 Name:		ghc-%{pkgname}
 Version:	1.0.1.4
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Development/Languages
 Source0:	http://hackage.haskell.org/packages/archive/%{pkgname}/%{version}/%{pkgname}-%{version}.tar.gz
@@ -57,7 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc NEWS
 %doc %{name}-%{version}-doc/html
 %{_libdir}/%{ghcdir}/package.conf.d/%{pkgname}.conf
 %{_libdir}/%{ghcdir}/%{pkgname}-%{version}
